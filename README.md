@@ -6,9 +6,12 @@ The project uses the following key components:
 
 ### Prerequisites
 
-1. **Python Environment:** Ensure you have Python 3.8+ installed.
-
-2. **Dependencies:** Install the required libraries:
+1. **Python Environment:** Python 3.8+ installed.
+2. **Requirements:** latest torch, torchvision
+3. Training command.
 
    ```bash
    python main.py --mode train --model_type simple_cnn --exp_name simple_cnn_run_1
+4. Testing command.
+ ```bash
+   python main.py --mode test --model_type simple_cnn --exp_name simple_cnn_run_1
