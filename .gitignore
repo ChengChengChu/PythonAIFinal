@@ -1,0 +1,4 @@
+*.pkl 
+*.sh 
+wandb/*
+model/*
